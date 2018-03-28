@@ -1,0 +1,412 @@
+
+
+.navbar-default{
+    border: transparent;
+    background: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    /*box-shadow: 1px 1px 10px #f5f4f4;*/
+}
+
+.navbar{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px){
+
+    #bottom {
+        position: absolute;
+        width: 100%;
+        top: 1400px !important;
+        z-index: 777 !important;
+        background-color: #f7f7f7;
+    }
+
+    li > a span{
+        color: rgba(208, 206, 206, 0.5) !important;
+
+    }
+
+    li.active-link>a span{
+        color:black !important;
+
+    }
+
+    li > a:hover span{
+        color: black !important;
+
+    }
+
+    #text-brand{
+        color: black !important;
+    }
+
+    .navbar-default {
+        position: fixed !important;
+        background-color: white;
+        /*color: black !important;*/
+        z-index: 999;
+        width: 100%;
+        top: 0px;
+        box-shadow: 1px 1px 10px #f5f4f4;
+        padding: 10px 0px 10px 0px;
+        /*opacity: 0.8;*/
+    }
+
+    .arrowDown{
+        display: none;
+    }
+
+    .navbar-default > .container{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    #banner{
+        height: 260px !important;
+    }
+
+    li > a span{
+        font-size: inherit;
+    }
+
+    li.active-link>a span{
+        color:hotpink;
+        padding-top:2px;
+        width: 100%;
+    }
+
+    #banner div > h1 {
+        color: white;
+        font-family: avenir;
+        padding-left: 20px !important;
+        padding-top: 10px !important;
+        font-weight: bold !important;
+        font-size: 20px;
+
+    }
+
+    #briefs div > h3{
+        font-family: avenir, sans-serif, SansSerif;
+        margin-left: 0px !important;
+    }
+
+    #briefs div > h1{
+        font-family: avenir, sans-serif, SansSerif;
+        margin-left: 0px !important;
+    }
+
+    #phone_img{
+        margin-top: 20px;
+        margin-left: 0px !important;
+    }
+
+    #briefs {
+        margin-top: 20px !important;
+    }
+
+    #banner div > h2 {
+        padding-left: 20px !important;
+        position: relative;
+        font-size: 10px;
+        font-family: 'Lato';
+    }
+
+
+    .get_started {
+        font-weight: normal !important;
+        font-size: 12px !important;
+        padding: 5px 10px 5px 10px !important;
+        position: relative;
+        margin-left: 20px !important;
+        margin-top: 8px !important;
+    }
+
+}
+
+
+.navbar-default > .container{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+li.active-link>a span{
+    border-top: 1.1px solid hotpink;
+    color:white;
+    padding-top:5px;
+    width: 100%;
+}
+
+a span{
+    font-family: avenir;
+    /*font-size: 14px;*/
+    font-weight: 300;
+    color: white;
+}
+
+@font-face {
+    font-family: avenir;
+    src: url('AEH.ttf');
+}
+
+li > a span{
+    color: rgba(208, 206, 206, 0.5);
+    position: relative;
+    /*font-size: 19px;*/
+}
+
+ li a:hover span{
+    border-top: 1.1px solid hotpink;
+    color: white;
+    padding-top:5px;
+
+}
+
+.hover_out{
+    color: black;
+}
+
+
+
+#text-brand{
+    font-family: avenir;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+
+li.active-link>a{
+
+}
+
+ div#navbar.navbar-collapse {
+    /*position: absolute !important;*/
+/*background-color: #ffffff;*/
+
+}
+
+ nav.navbar.navbar-collapse{
+     position: absolute !important;
+
+ }
+
+.navbar-default .navbar-toggle{
+    border-color: transparent !important;
+}
+
+span.icon-bar{
+    background: hotpink !important;
+    height: 3px !important;
+    width: 27px !important;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+
+ .navbar-toggle{
+    color: hotpink;
+ }
+
+#banner{
+
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),  url("../images/drone.jpg");
+    height:639px;
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+
+}
+
+#banner div > h1 {
+    color: white;
+    font-family: avenir;
+    padding-left: 100px;
+    font-weight: 700;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 1.6em;
+}
+
+h1 > span {
+    color: hotpink;
+}
+
+
+#banner div > h2 {
+    color: white;
+    padding-left: 100px;
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+div > a {
+    font-family: Lato;
+
+}
+
+.get_started{
+    border-radius: 0px !important;
+    margin-top: 14px;
+    margin-left: 100px;
+    background-color:hotpink;
+    border-color: transparent;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-family: avenir;
+    font-weight: normal;
+
+}
+
+.get_started:hover, .get_started:focus{
+    transform: translateY(-1.5px);
+    color: white !important;
+}
+
+#briefs  .get_started{
+    margin-left: 0px !important;
+}
+
+.animated_menu {
+    position: fixed !important;
+    background-color: white;
+    /*color: black !important;*/
+    z-index: 999;
+    width: 100%;
+    top: 0px;
+    box-shadow: 1px 1px 10px #f5f4f4;
+    padding: 5px 0px 5px 0px;
+}
+
+
+ .arrowDown{
+    margin-top: 24%;
+    padding-left: 70%;
+    color: white;
+     cursor: pointer;
+     position: static;
+}
+
+#briefs div > h1 {
+
+font-family: avenir,sans-serif, SansSerif;
+
+}
+
+#briefs{
+    margin-top: 120px;
+}
+
+#briefs div > h3{
+    font-family: 'Lato';
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+#phone_img{
+    height: 800px;
+    width: 80%;
+    margin-left: 60px;
+}
+
+#bottom {
+    position: absolute;
+    width: 100%;
+    top: 1450px;
+    z-index: 777;
+    padding-top: 55px;
+    background-color:#333447;
+    padding-bottom: 20px;
+}
+
+#bottom #inline ul > li {
+    list-style: none;
+    display: inline;
+    line-height: 1.5em;
+    padding-left: 7px;
+}
+
+#bottom ul > li > a {
+    color: white;
+    font-family: 'Lato';
+}
+
+#bottom ul > li > a:hover{
+    color: hotpink;
+}
+
+#bottom h3 {
+    font-family: avenir SansSerif Lato;
+    margin-left: 20px;
+    color: #bfc7d9;
+
+}
+
+#last p {
+    color: white;
+    display: inline;
+}
+
+.globalBtn{
+    position: relative;
+    box-shadow: 0 3px 3px #999;
+    color: #fff;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    width: 50px;
+    height: 50px;
+    padding-top: 6px;
+    text-align: center;
+    border:2px solid #ddd;
+}
+
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+.googleBtn{
+
+}
+
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:hover{
+    color: #00ABE3;
+    background: #fff;
+    border-color: #00ABE3;
+}
+
+.googleBtn{
+    background: #e64522;
+}
+
+.googleBtn:hover{
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:hover{
+    color: #0094BC;
+    background: #fff;
+    border-color: #0094BC;
+}
+
